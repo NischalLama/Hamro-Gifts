@@ -1,0 +1,137 @@
+store{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-color: black;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+companyname{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color : white;
+}
+
+companyinfo{
+    display: block;
+    font-size: 15px;
+    color : white;
+}
+
+companywebsite{
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    color : white;
+}
+
+/*header closed */
+
+GiftCards{
+    margin: 30px;
+    border: 5px none;
+    border-radius: 10px;
+    padding: 30px;
+    display: block;
+    justify-content: center;
+    background-color: rgba(255, 228, 196, 0.316);
+}
+card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-left: 30px;
+    row-gap: 20px;
+    border: 3px none;
+    border-radius: 10px;
+    background-color: rgba(255, 235, 205, 0.529);
+    margin-bottom: 30px;
+
+}
+
+CardImg {
+    height: 560px;
+    width: 400px;
+    margin: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 100px;
+    margin-right: 30px;
+    background-size: cover;
+    border: 5px groove black;
+}
+
+
+
+
+
+#P001 {
+    background-image: url(./Images/XBOX.jpg);
+}
+
+
+
+#P002 {
+    background-image: url(./Images/XBOX.jpg);
+}
+
+#P003 {
+    background-image: url(./Images/Itunes.jpg);
+}
+
+#P004 {
+    background-image: url(./Images/Nintendo.jpg);
+}
+
+#P005 {
+    background-image: url(./Images/amazon.jpg);
+}
+
+#P006 {
+    background-image: url(./Images/amazon.jpg);
+}
+
+#P007 {
+    background-image: url(./Images/riot.jpg);
+}
+
+#P008 {
+    background-image: url(./Images/riot.jpg);
+}
+
+#P009 {
+    background-image: url(./Images/Steam.jpg);
+}
+
+#P0010 {
+    background-image: url(./Images/Steam.jpg);
+}
+
+#P0011 {
+    background-image: url(./Images/Mobile\ Legends.jpg);
+}
+
+#P0012 {
+    background-image: url(./Images/PUBG.jpg);
+}
+
+#P0013 {
+    background-image: url(./Images/PUBG.jpg);
+}
+
+#P0014 {
+    background-image: url(./Images/burger\ king.jpg);
+}
+
+#P0015 {
+    background-image: url(./Images/burger\ king.jpg);
+}

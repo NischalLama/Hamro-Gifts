@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_20048933.css"?>
+<!--Nischal Lama-->
+<!--Coursework-->
+<store>
+    <header>
+            <Logo id="Logo" />
+            <companyname>Hamro Gift</companyname>
+            <companyinfo>Uk, London</companyinfo>
+            <companywebsite>www.hamrocards.com</companywebsite>
+    </header>
+
+
+    <GiftCards>
+        <card cardid="C001">
+            <CardImg id="P001" />
+            <CardName nameid="N001"> Xbox 20$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="15"> Available: 15</available>
+            <Price currency="USD"> Price: $20 </Price>
+            <Validity> Valid Until : 1 year </Validity>
+            <noofuser> No of Use: Single Use</noofuser>
+            <discount> Discount: 10% on this product</discount>
+        </card>
+
+        <card cardid="C002">
+            <CardImg id="P002" />
+            <CardName nameid="N002"> Xbox 60$ Gift Card </CardName>
+            <Type type="physical"> Type: Physical Card </Type>
+            <available quantity="5"> Available: 5</available>
+            <Price currency="USD"> Price: $60 </Price>
+            <Validity> Valid Until : 1 year </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C003">
+            <CardImg id="P003" />
+            <CardName nameid="N003"> Itunes 40$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="2"> Available: 2</available>
+            <Price currency="USD"> Price: $40 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C004">
+            <CardImg id="P004" />
+            <CardName nameid="N004"> Nintendo 10$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="9"> Available: 9</available>
+            <Price currency="EU"> Price: €10 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C005">
+            <CardImg id="P005" />
+            <CardName nameid="N005"> Amazon 25$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="30"> Available: 30</available>
+            <Price currency="USD"> Price: $25</Price>
+            <Validity> Valid Until : 1 year a0fter payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C006">
+            <CardImg id="P006" />
+            <CardName nameid="N006"> Amazon 60$ Gift Card </CardName>
+            <Type type="physical"> Type: Physical Card </Type>
+            <available quantity="50"> Available: 50</available>
+            <Price currency="USD"> Price: $60 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C007">
+            <CardImg id="P007" />
+            <CardName nameid="N007"> Riot Games 15$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="20"> Available: 20</available>
+            <Price currency="USD"> Price: $15 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C008">
+            <CardImg id="P008" />
+            <CardName nameid="N008"> Riot Games 30$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="30"> Available: 30</available>
+            <Price currency="USD"> Price: $30 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C009">
+            <CardImg id="P009" />
+            <CardName nameid="N009"> Steam 15$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="5"> Available: 5</available>
+            <Price currency="USD"> Price: $15 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C0010">
+            <CardImg id="P0010" />
+            <CardName nameid="N0010"> Steam 25$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="15"> Available: 15</available>
+            <Price currency="USD"> Price: $25 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C0011">
+            <CardImg id="P0011" />
+            <CardName nameid="N0011"> Mobile Legends 6$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="6"> Available: 6</available>
+            <Price currency="USD"> Price: 6$ </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C0012">
+            <CardImg id="P0012" />
+            <CardName nameid="N0012"> PUBG 20$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="19"> Available: 19</available>
+            <Price currency="USD"> Price: $20 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C0013">
+            <CardImg id="P0013" />
+            <CardName nameid="N0013"> PUBG 100$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="9"> Available: 9</available>
+            <Price currency="USD"> Price: $100 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+        <card cardid="C0014">
+            <CardImg id="P0014" />
+            <CardName nameid="N0014"> Burger King 25$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="10"> Available: 10</available>
+            <Price currency="USD"> Price: $25 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+
+
+        <card cardid="C0015">
+            <CardImg id="P0015" />
+            <CardName nameid="N0015"> Burger King 10$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="10"> Available: 10</available>
+            <Price currency="USD"> Price: $10 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser> No of User: Single User</noofuser>
+            <discount> No Discount on this card</discount>
+        </card>
+        
+
+
+    </GiftCards>
+
+
+
+</store>

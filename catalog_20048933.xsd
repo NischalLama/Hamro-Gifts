@@ -1,0 +1,106 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Logo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="id"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="companyname" type="xs:string"/>
+  <xs:element name="companyinfo" type="xs:string"/>
+  <xs:element name="companywebsite" type="xs:anyURI"/>
+  <xs:element name="CardImg">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="id" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CardName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="nameid" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Type">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="available">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:byte" name="quantity" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Price">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="currency" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Validity" type="xs:string"/>
+  <xs:element name="noofuser" type="xs:string"/>
+  <xs:element name="discount" type="xs:string"/>
+  <xs:element name="card">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CardImg"/>
+        <xs:element ref="CardName"/>
+        <xs:element ref="Type"/>
+        <xs:element ref="available"/>
+        <xs:element ref="Price"/>
+        <xs:element ref="Validity"/>
+        <xs:element ref="noofuser"/>
+        <xs:element ref="discount"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="cardid" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Logo"/>
+        <xs:element ref="companyname"/>
+        <xs:element ref="companyinfo"/>
+        <xs:element ref="companywebsite"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GiftCards">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="card" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="store">
+    <xs:annotation>
+      <xs:documentation>Nischal LamaCoursework</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="header"/>
+        <xs:element ref="GiftCards"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
